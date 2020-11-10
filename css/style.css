@@ -1,0 +1,177 @@
+body{
+	background-color: red;
+}
+#cabecera {
+    width: 100%;
+    height: 40px;
+    background-color: #424242;
+}
+.tamano-imagen {
+    width: 187px;
+}
+.formulario_ts {
+    background-color: red;
+    padding: 40px 60px 60px 60px;
+}
+
+.titulo_form {
+    color: #15b2e2;
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 3px;
+    text-transform: capitalize;
+}
+.resultados {
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 22px;
+    color: #919191;
+    font-weight: 400;
+}
+
+label {
+    color: #979797;
+    margin-bottom: 3px;
+}
+
+.form-control.selects_tls {
+    border-radius: 0;
+    border: 1px solid #cacaca;
+    color: #aeaeae;
+}
+
+button.btn.btn-primary.boton_cotizar {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #b1d641;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #7b9f0c;
+}
+
+.recuperar_cotizacion {
+    text-align: center;
+    color: #15b2e2;
+    padding: 29px 0px 7px 0px;
+    font-size: 16px;
+}
+
+
+.formulario_ts {
+    background-color: white;
+    padding: 40px 60px 30px 60px;
+    -webkit-box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.51);
+    box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.51);
+}
+
+.fondo_azul {
+    width: 100%;
+    height: 265px;
+    position: absolute;
+    background-color: #00ace0;
+    top: 203px;
+}
+
+.bajar_formulario {
+    margin-top: 66px;
+}
+
+.mobile{
+	display: none;
+}
+@media(max-width: 770px){
+
+.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.container, .container-sm {
+    max-width: 680px !important;
+}
+
+label {
+    float: left;
+    width: 30%;
+}
+
+.form-control.selects_tls {
+    border-radius: 0;
+    border: 1px solid #cacaca;
+    color: #aeaeae;
+    width: 70%;
+}
+
+
+}
+
+
+@media(max-width: 600px){
+
+.desktop{
+	display: none;
+}
+
+.mobile{
+	display: block;
+}
+
+label {
+    display: none !important;
+}
+
+select#Vehiculo {
+    width: 100%;
+}
+
+input#email {
+    width: 100%;
+}
+
+select#anio {
+    width: 100%;
+}
+
+.bajar_formulario {
+    margin-top: 0;
+}
+
+.col-md-7.col-sm-12 {
+    padding: 0px !important;
+}
+
+select#modelo {
+    width: 100%;
+    float: left;
+}
+
+.form-group.col-md-6 {
+    margin-bottom: 0px;
+}
+
+.form-group.col-md-4 {
+    margin-bottom: 0px;
+}
+
+.formulario_ts {
+    background-color: #eeefee;
+    padding: 17px 30px 30px 30px;
+}
+
+.base_mobile.mobile {
+    width: 100%;
+    padding-top: 14px;
+    background-color: #fff;
+    display: table;
+    z-index: 9;
+    position: relative;
+    border-bottom: 4px solid #15b2e2;
+}
+
+
+}
